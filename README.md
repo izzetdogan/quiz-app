@@ -16,12 +16,7 @@ Frontend is running on port 4200
 <li>Relational Database</li>
 </ul>
 
-## images
-![](img/1.png)
-![](img/2.png)
-![](img/3.png)
-![](img/4.png)
-![](img/5.png)
+
 
 
 ## Backend
@@ -36,3 +31,12 @@ Frontend is running on port 4200
 <ul>
 <li>Angular-Material</li>
 <li>Bootstrap</li>
+ </ul>
+
+
+## images
+![](img/1.png)
+![](img/2.png)
+![](img/3.png)
+![](img/4.png)
+![](img/5.png)
