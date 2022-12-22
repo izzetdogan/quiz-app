@@ -1,0 +1,47 @@
+<mat-card *ngIf="user">
+  <h1>Your Profile</h1>
+  {{ user | json }}
+  <mat-card-content>
+    <div class="bootstrap-wrapper">
+      <div class="container">
+        <div class="container text-center">
+          <img
+            src="https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG-High-Quality-Image.png"
+            class="profile-image"
+          />
+          <h1>azat</h1>
+        </div>
+        <div class="row">
+          <div class="col-md-10 offset-md-1">
+            <table class="table text-center">
+              <tr>
+                <td>E-mail</td>
+                <td>{{ user.email }}</td>
+              </tr>
+              <tr>
+                <td>Firstname</td>
+                <td>{{ user.email }}</td>
+              </tr>
+              <tr>
+                <td>lastname</td>
+                <td>{{ user.role }}</td>
+              </tr>
+              <tr>
+                <td>Role</td>
+                <td>{{ user.role }}</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </mat-card-content>
+  <mat-card-actions>
+    <div class="container text-center">
+      <button mat-raised-button color="primary" style="margin-right: 15px">
+        Like
+      </button>
+      <button mat-raised-button color="accent">Share</button>
+    </div>
+  </mat-card-actions>
+</mat-card>

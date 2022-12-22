@@ -1,0 +1,55 @@
+<div class="bootstrap-wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <mat-card style="margin-top: 20px">
+          <mat-card-header>
+            <mat-card-title>Read the instruction</mat-card-title>
+            <mat-card-subtitle>One step more to go</mat-card-subtitle>
+          </mat-card-header>
+          <mat-card-content>
+            <h1 style="margin-top: 10px; margin-bottom: 10px">
+              {{ quiz.title }}
+            </h1>
+            <p>longText</p>
+            <mat-divider></mat-divider>
+            <br />
+            <h1>Impportant Instuction</h1>
+
+            <ul>
+              <li>Practice Purpose</li>
+              <li>
+                There are<b> {{ quiz.numberOfQuestion }}</b>
+              </li>
+              <li>Practice Purpose</li>
+              <li>Practice Purpose</li>
+            </ul>
+
+            <mat-divider></mat-divider>
+            <br />
+            <h1>Attemptein</h1>
+
+            <ul>
+              <li>Practice Purpose</li>
+              <li>
+                There are<b> {{ quiz.numberOfQuestion }}</b>
+              </li>
+              <li>Practice Purpose</li>
+              <li>Practice Purpose</li>
+            </ul>
+          </mat-card-content>
+          <mat-card-actions class="text-center">
+            <button
+              (click)="startQuiz()"
+              style="margin: 30px 0px 30px 30px"
+              mat-raised-button
+              color="primary"
+            >
+              START
+            </button>
+          </mat-card-actions>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+</div>

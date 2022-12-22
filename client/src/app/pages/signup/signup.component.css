@@ -1,0 +1,16 @@
+.signup {
+  background-color: #373382;
+
+  padding: 40px;
+  border-radius: 0.3rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: #fff;
+}
+.full-width {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.form-register {
+  margin-top: 30px;
+}
