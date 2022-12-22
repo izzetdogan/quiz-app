@@ -17,11 +17,11 @@ Frontend is running on port 4200
 </ul>
 
 ## images
-![](images/1.png)
-![](images/2.png)
-![](images/3.png)
-![](images/4.png)
-![](images/5.png)
+![](img/1.png)
+![](img/2.png)
+![](img/3.png)
+![](img/4.png)
+![](img/5.png)
 
 
 ## Backend
